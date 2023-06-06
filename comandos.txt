@@ -1,0 +1,37 @@
+  469  echo "# 20230605-KevinSantana" >> README.md
+  470  git init
+  471  git add README.md
+  472  git commit -m "first commit"
+  473  git branch -M main
+  474  git remote add origin https://github.com/kesant/20230605-KevinSantana.git
+  475  git push -u origin main
+  476  touch comandos.txt main.js index.html
+  477  ls
+  478  git add .
+  479  git status
+  480  git commit -m "commit 01 kevinSantana"
+  481  git push origin main
+  482  git branch feature
+  483  git branch -a
+  484  git checkout feature
+  485  mkdir Hardware Software SeguridadInformatica
+  486  ls
+  487  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  488  ls -R
+  489  git add .
+  490  git commit -m "commit 02 de Kevin Santana "
+  491  git push origin feature
+  492  git checkout main
+  493  ls
+  494  mv main.js resumenHardware.txt
+  495  ls
+  496  mv index.html resumenSoftware.txt
+  497  ls
+  498  nano resumenSoftware.txt
+  499  nano resumenSoftware.txt
+  500  nano resumenHardware.txt
+  501  ls
+  502  git status
+  503  nano comandos.txt
+  504  git history
+  505  history
